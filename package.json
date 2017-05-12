@@ -1,16 +1,15 @@
 {
-  "name": "material-ui-example-webpack",
-  "version": "0.16.4",
-  "description": "Sample project that uses Material-UI",
+  "name": "rolling-agenda",
+  "version": "0.0.0",
+  "description": "An agenda app which rolls incomplete tasks over to tomorrow if not completed today.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/callemall/material-ui.git"
+    "url": "https://github.com/ebrearley/rolling-agenda.git"
   },
   "scripts": {
     "start": "webpack-dev-server --config webpack-dev-server.config.js --progress --inline --colors",
     "build": "webpack --config webpack-production.config.js --progress --colors"
   },
-  "private": true,
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
